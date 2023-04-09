@@ -109,8 +109,8 @@ irisSetosaHomogeneity = statistics.pstdev(irisSetosa['Sepal_Length'])/statistics
 irisVersicolorHomogeneity = statistics.pstdev(irisVersicolor['Sepal_Length'])/statistics.mean(irisVersicolor['Sepal_Length'])  # noqa
 irisVirginicaHomogeneity = statistics.pstdev(irisVirginica['Sepal_Length'])/statistics.mean(irisVirginica['Sepal_Length'])  # noqa
 
-print('Coeficiente de Variação Iris-setosa:', irisSetosaHomogeneity)
-print('Coeficiente de Variação Iris-versicolor:', irisVersicolorHomogeneity)
-print('Coeficiente de Variação Iris-virginica:', irisVirginicaHomogeneity)
+print('Coefficient of variation Iris-setosa:', irisSetosaHomogeneity)
+print('Coefficient of variation Iris-versicolor:', irisVersicolorHomogeneity)
+print('Coefficient of variation Iris-virginica:', irisVirginicaHomogeneity)
 
 print(space)
